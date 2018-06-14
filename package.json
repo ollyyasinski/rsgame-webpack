@@ -1,0 +1,35 @@
+{
+  "name": "rsgame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ollyyasinski/rs-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ollyyasinski/rs-game/issues"
+  },
+  "homepage": "https://github.com/ollyyasinski/rs-game#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "path": "^0.12.7",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jqueryui": "^1.11.1",
+    "lodash": "^4.17.10"
+  }
+}
